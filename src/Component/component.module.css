@@ -1,0 +1,21 @@
+
+.Detail{
+    width: auto;
+    height: 40vh;
+    background: linear-gradient(to right, lightgray , rgb(111, 61, 204));
+    padding: 0 20% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Detail > div {
+    color: #ffff;
+    font-weight: 400;
+
+}
+.Detail > div > button{
+    padding: 10px 15px ;
+    border-radius: 3px;
+    border: none;
+}
